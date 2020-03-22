@@ -1,0 +1,67 @@
+html{
+	height: 100%;
+}
+
+body{
+	width:1100px;
+	background:rgb(215, 215, 255);
+	max-width:95%;
+	margin:auto;
+}
+h1{
+	float:left;
+	color:rgb(150,0,0);
+	margin:0;
+}
+header h2{
+	text-align:center;
+	font-weight:normal;
+	color:rgb(0,150,175);
+}
+.last_article{
+	background:rgb(20,20,255);
+	max-width:50%;
+}
+
+.clients_list{
+	background:rgb(255,20,255);
+	max-width:50%;
+}
+
+.mission_article{
+	background:rgb(255,255,20);
+	max-width:50%;
+}
+
+section{
+	background:rgb(255,215,215);
+	padding:10px 100px;
+}
+section h2{
+	text-align:center;
+	color:rgb(0,100,150);
+}
+article{
+	background:rgb(255,255,255);
+	float:left;
+	width:29.3%;
+	margin:1%;
+	padding:1%;
+	height:150px;
+}
+h3{
+	color:rgb(45,45,45);
+}
+article p{
+	color:rgb(75,75,75);
+}
+article li{
+	color:rgb(75,75,75);
+}
+footer{
+	text-align:center;
+	background:rgb(175,175,175);
+	color: white;
+	clear:left;
+	flex-shrink: 0;
+}
