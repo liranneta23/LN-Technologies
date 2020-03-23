@@ -39,6 +39,11 @@ body{
     font-style: italic;
 }
 
+.logo{
+  height:40px;
+  width:40px;
+}
+
 h1{
 	text-align:center;
 	color:rgb(150,0,0);
