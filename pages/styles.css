@@ -35,6 +35,24 @@ body{
     width:100%;
 }
 
+h1{
+	text-align:center;
+	color:rgb(150,0,0);
+	margin:0;
+}
+
+section{
+	padding:10px 100px;
+    text-align:center;
+}
+section h2{
+	color:#6B6509;
+}
+section p{
+	color:#8EC0E3;
+    width:100%;
+}
+
 article{
     color:white;
 	background:#3C3C3C;
