@@ -1,0 +1,9 @@
+#main-articles{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article-block{
+    display: inline-flex;
+}
