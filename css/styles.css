@@ -13,7 +13,7 @@ body{
 
 .content {
   padding: 20px;
-  min-height: 100%;
+  min-height: 80%;
   margin: 0 auto -65px;
 }
 
@@ -52,6 +52,17 @@ body{
 .logo{
   height:40px;
   width:40px;
+}
+
+.show-time{
+  margin: 20px;
+  width: 300px;
+  margin: auto;
+}
+
+.show-time p{
+  background:#b3d691;
+  border: 1px solid #73AD21;
 }
 
 h1{

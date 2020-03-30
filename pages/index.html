@@ -4,20 +4,21 @@
 	<title>Liran Technologies</title>
 	<link rel="stylesheet" type="text/css" href="..\css\styles.css" />
 	<link rel="stylesheet" type="text/css" href="..\css\home-page-styles.css" />
-<meta charset="UTF-8">
-<meta name="description" content="This is the site for all the trended technologic companies around the globus. In this site you can find
-articles about several enterprises and start-ups. If you are found in this site, that means the best analysts see you as the next thing of the technology" />
-<meta name="keywords" content="trended companies, technology, companies, technology articles">
-<meta http-equiv="refresh" content="120">
-<meta name="author" content="Liran Neta">
-
-<style>
-	h1 {font-size: 50px;}
-
-</style>
+	<meta charset="UTF-8">
+	<meta name="description" content="This is the site for all the trended technologic companies around the globus. In this site you can find
+	articles about several enterprises and start-ups. If you are found in this site, that means the best analysts see you as the next thing of the technology" />
+	<meta name="keywords" content="trended companies, technology, companies, technology articles">
+	<meta http-equiv="refresh" content="120">
+	<meta name="author" content="Liran Neta">
+	
+	<script src="welcome.js"></script>
+	
+	<style>
+		h1 {font-size: 50px;}	
+	</style>
 
 </head>
-<body>
+<body onload="alert('Welcome Home!')">
 	
 	<div class="background-wrap">
 		<video id="video-bg-element" preload="auto" autoplay="true" loop="loop" muted="muted">
@@ -25,17 +26,18 @@ articles about several enterprises and start-ups. If you are found in this site,
 		Video Not Supported
 		</video>
 	</div>
-	
-	<div class="content">
+		
+	<article class="content">
 		<header>
 			<h1>LN-Technologies.com</h1>
 		</header>
-		
+				
 		<ul class="vertical-navigation-bar">
 		  <li><a class="active-page" href="#home">Home</a></li>
 		  <li><a href="news.html">News</a></li>
 		  <li><a href="contact.html">Contact</a></li>
 		  <li><a href="about.html">About</a></li>
+		  <li><a href="all-articles-page.html">Articles</a></li>
 		</ul>
 		
 		<section>
@@ -43,7 +45,7 @@ articles about several enterprises and start-ups. If you are found in this site,
 			<p>"The only people who have anything to fear from free software are those whose products are worth even less" <strong class="author">- David Emery</strong></p>
 		</section>
 		
-		<div id="main-info">
+		<article id="main-info">
 			<article>
 				<h3>Our Mission</h3>
 				<p>Helping all the technologic companies around the world to get out of the crisis safely and publish articles about them!</p>
@@ -52,10 +54,10 @@ articles about several enterprises and start-ups. If you are found in this site,
 			<article>
 				<h3>Our big clients</h3>
 				<ul style="list-style-type:none;display:inline">
-					<li><img class="logo" src="../images/microsoft-logo.jpg" /></li>
-					<li><img class="logo" src="../images/intel-logo.png" /></li>
-					<li><img class="logo" src="../images/apple-logo.png" /></li>
-					<li><img class="logo" src="../images/wd-logo.png" /></li>
+					<li title="microsoft"><img class="logo" src="../images/microsoft-logo.jpg" /></li>
+					<li title="intel"><img class="logo" src="../images/intel-logo.png" /></li>
+					<li title="apple"><img class="logo" src="../images/apple-logo.png" /></li>
+					<li title="western digital"><img class="logo" src="../images/wd-logo.png" /></li>
 				</ul>
 			</article>
 			
@@ -64,13 +66,21 @@ articles about several enterprises and start-ups. If you are found in this site,
 				<p>+972544307517</p>
 				<p>info@lntech.com</p>
 			</article>
-		</div>
-	</div>
+		</article>
+		
+	</article>
+	
+					
+	<section class="show-time">
+		<button onclick="displayTime();">What's the clock?</button>
+		<p id='time-paragraph' style="display:none">The time is: </p>
+	</section>
 
-	<footer class="footer">
+	
+	<footer class="footer" onmouseover="this.style.backgroundColor='#3390FF'" onmouseout="this.style.backgroundColor='#42A5F5'">
 		<p>Home Page | <a href="all-articles-page.html">Articles</a></p>
 	</footer>
-	
+
 
 </body>
 	
