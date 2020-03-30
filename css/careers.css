@@ -1,0 +1,24 @@
+/* Flexbox Styles */
+
+#jobs-list{
+    display:flex;
+    flex-wrap: wrap;
+	text-align:center;   
+    width: calc(100% - 220px);
+    margin: 0 40px;
+}
+
+.job-details{
+    position:relative;    
+    margin: 15px;    
+    padding:10px;
+    border:2px solid;
+    width: 44%;
+    
+    font-family: Open Sans, sans-serif;    
+    background-color:white;
+}
+
+.job-details h3{
+    font-size: 24px;
+}
