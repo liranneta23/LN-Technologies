@@ -1,11 +1,41 @@
 /* Flexbox Styles */
 
+.upload-cv{
+    position:relative;
+    left: 42%;
+    width: 250px;
+
+  	text-align:center;
+}
+
+.upload-cv input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  top: 0;
+  left:0;
+  opacity: 0;
+  width:100%;
+  height: 100%;
+}
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
 #jobs-list{
     display:flex;
     flex-wrap: wrap;
 	text-align:center;   
-    width: calc(100% - 220px);
-    margin: 0 40px;
+    width: calc(100% - 300px);
+    margin: 0 70px;
+    margin-bottom: 50px;
 }
 
 .job-details{
@@ -21,4 +51,35 @@
 
 .job-details h3{
     font-size: 24px;
+}
+
+#pagenavigation-holder{
+    position: relative;
+    margin-top: 20px;
+    width: 44%;
+    
+    display:flex;    
+    align-items:flex-start;
+}
+
+.padding{
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px;
+    margin: 0 10px;
+    background: #F5F5F5;
+    font-size: 20px;
+    line-height: 15px;
+    color: #333;
+}
+
+.current-page{
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px;
+    margin: 0 10px;
+    background: #F5F5F5;
+    font-size: 20px;
+    line-height: 15px;
+    background-color: #8D8D8D;
 }

@@ -37,16 +37,24 @@ body{
 
 
 #sub-header{
-	padding:20px;
+  position: relative;
+  width:100%;
+	padding-top:20px;
   text-align:center;
   color:#6B6509;
 }
 
-
-#centered-content{
-  margin-left:200px;
+#sidenav{
   display: flex;
   flex-direction: column;
+}
+
+#site-logo{
+  position:fixed;
+  top:0;
+  left:30px;
+  height:100px;
+  width:100px;
 }
 
 .vertical-navigation-bar{
@@ -58,8 +66,14 @@ body{
   width: 200px;
   height:100%;
   left:0;
-  top:50px;
+  top:100px;
   background-color: #f1f1f1;
+}
+
+#centered-content{
+  margin-left:200px;
+  display: flex;
+  flex-direction: column;
 }
 
 .article-block{
@@ -83,14 +97,15 @@ body{
 }
 
 .show-time{
-  margin: 20px;
-  width: 300px;
+  position:relative;
   margin: auto;
+  left:-80px;
 }
 
 .show-time p{
   background:#b3d691;
   border: 1px solid #73AD21;
+  text-align:center;
 }
 
 h1{
